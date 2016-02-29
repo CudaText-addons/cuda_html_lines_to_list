@@ -1,0 +1,22 @@
+[info]
+title=HTML Lines To List
+desc=Converts selected lines to HTML list: <ul>, <ol>, <table>
+type=cudatext-plugin
+subdir=cuda_html_lines_to_list
+
+[item1]
+section=commands
+caption=HTML Lines To List\To ordered list
+method=to_olist
+[item2]
+section=commands
+caption=HTML Lines To List\To unordered list
+method=to_ulist
+[item3]
+section=commands
+caption=HTML Lines To List\To table, by lines
+method=to_table_lines
+[item4]
+section=commands
+caption=HTML Lines To List\To table, by columns
+method=to_table_cols
